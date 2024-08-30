@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes move{
+    0% {transform: translatey(-40%);}
+    100%{transform: translateY(50%);}
+}
+ 
+.globe{
+    animation: move 3s ease-out ;
+}
+
+@keyframes icon2{
+    0%{transform: scale(0);}
+    100%{transform: scale(4px);}
+}
+
+.sideIcon2:hover .icon2{
+    animation: icon2 1s normal;
+}

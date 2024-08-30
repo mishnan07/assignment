@@ -1,0 +1,25 @@
+.date-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.date-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.date-input .form-control {
+    width: auto;
+    max-width: 150px;
+}
+
+.date-filter .btn {
+    margin-left: 10px;
+}
